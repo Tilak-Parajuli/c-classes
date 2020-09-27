@@ -19,7 +19,7 @@ struct crypt : std::binary_function<int, int, int> {
     }
 };
 
-int main() {
+int main(){
     std::string msg = "Drink more Beer.";
     std::vector<int> encrypted;
 
